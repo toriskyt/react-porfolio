@@ -6,7 +6,7 @@ function Portfolio() {
   <div className='imageContainer'>
     <div>Password Generator<br/>
       <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>GitHub link</a><br/>
-      <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>GitHub link</a><br/>
+      <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>Deployed link</a><br/>
       </div>
     <img alt="passwordGenerator img" src="./assets/passwordGenerator.jpg"/> 
   </div>
@@ -14,7 +14,7 @@ function Portfolio() {
   <div className='imageContainer'>
     <div>Refactoring Exercise <br/>
       <a target="_blank" href="https://toriskyt.github.io/refactoring-html-project/">GitHub link</a><br/>
-      <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>GitHub link</a><br/>
+      <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>Deployed link</a><br/>
       </div>
     <img alt="refactoring img" src="./assets/refactoringExercise.jpg"/> 
   </div>
@@ -22,7 +22,7 @@ function Portfolio() {
   <div className='imageContainer'>
     <div>TixShare<br/>
     <a target="_blank" href="https://toriskyt.github.io/project-one/">GitHub link</a><br/>
-    <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>GitHub link</a><br/>
+    <a target="_blank" href={"https://toriskyt.github.io/random-password-generator/"}>Deployed link</a><br/>
     </div>
     <img alt="TixShare img" src="./assets/TixShare.png"/> 
   </div>
