@@ -6,11 +6,10 @@ import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
 import { useState } from "react"
-// create a state
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("home");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
   function renderPage() {
     switch (currentPage) {
       case "AboutMe": return <AboutMe></AboutMe>
@@ -23,7 +22,7 @@ function App() {
   }
   return (
     <>
-    <NavBar/>
+    <NavBar setCurrentPage={setCurrentPage}/>
 
     {renderPage() }
     <Footer/> 

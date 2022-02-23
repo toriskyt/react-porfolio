@@ -24,10 +24,11 @@ code {
   text-align: center;
 }
 
-#navbar a {
+#navbar span {
   text-decoration: none;
   color: black;
   margin: 0 30px;
+  cursor: pointer;
 }
 
 .body {

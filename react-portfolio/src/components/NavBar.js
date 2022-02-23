@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function NavBar() {
+function NavBar({setCurrentPage}) {
   return <div id="navbar">
-      <Link to="/">About Me</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/portfolio">Portfolio</Link>
-      <Link to="/resume">Resume</Link>
+      <span onClick={() => setCurrentPage("AboutMe")}>About Me</span>
+      <span onClick={() => setCurrentPage("Contact")}>Contact</span>
+      <span onClick={() => setCurrentPage("Portfolio")}>Portfolio</span>
+      <span onClick={() => setCurrentPage("Resume")}>Resume</span>
   </div>;
 }
 
