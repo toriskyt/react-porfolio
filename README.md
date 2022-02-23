@@ -2,7 +2,7 @@ Tracy Torisky Portfolio
 
 ttorisky@gmail.com
 
-![screenshot of react portfolio].(./public/src/assets/reactPortfolio.JPG)
+![screenshot of react portfolio](react-portfolio/src/assets/reactPortfolio.JPG)
 
 
 
